@@ -1,6 +1,6 @@
 <template>
   <div >
-    <router-link :to="`/actor/${actor.id}`">
+    <router-link :to="`/tony-movies/actor/${actor.id}`">
 <img :src="profileImage" alt="" />
 
       <h3>{{ actor.name }}</h3>

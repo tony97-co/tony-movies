@@ -1,7 +1,7 @@
 <template>
 
 <div class="flex">
-    <router-link to="/" >
+    <router-link to="/tony-movies/" >
 <img src="@/assets/images/logo.png" alt="" />
 
 </router-link>
@@ -17,13 +17,13 @@
 
 
 <li >
-<router-link to="/" class="ml-5" >
+<router-link to="/tony-movies/" class="ml-5" >
 Movies
 
 </router-link>
 </li>
 <li>
-<router-link to="/actors" class="ml-5">
+<router-link to="/tony-movies/actors" class="ml-5">
 
 Actors
 </router-link>

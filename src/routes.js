@@ -10,22 +10,22 @@ let router = new VueRouter({
 
 
         {
-            path:"/",
+            path:"/tony-movies/",
             name:"home",
             component:Home,
         },
         {
-            path: "/movie/:id",
+            path: "/tony-movies/movie/:id",
             name: "movie",
             component: Movie,
           },
           {
-            path: "/actors",
+            path: "/tony-movies/actors",
             name: "actors",
             component: Actors,
           },
           {
-            path: "/actor/:id",
+            path: "/tony-movies/actor/:id",
             name: "ActorDetail",
             component: ActorDetail,
           },

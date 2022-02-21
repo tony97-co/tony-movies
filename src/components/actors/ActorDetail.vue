@@ -96,7 +96,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           <div :key="movie.id" v-for="movie in this.knownFor">
             <router-link
-              :to="`/movie/${movie.id}`"
+              :to="`/tony-movies/movie/${movie.id}`"
               class="text-gray-400 text-sm leading-normal hover:text-white"
             >
               <img
@@ -118,7 +118,7 @@
         <ul class="list-disc leading-loose pl-5 mt-8">
           <li :key="cast.id" v-for="cast in castMovies">
             <strong>{{ castDetails(cast) }} </strong>
-            <router-link :to="`/movie/${cast.id}`" class="hover:underline">
+            <router-link :to="`/tony-movies/movie/${cast.id}`" class="hover:underline">
               {{ cast.title }}
             </router-link>
             as {{ cast.character }}

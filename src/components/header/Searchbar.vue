@@ -25,7 +25,7 @@
       <ul class="mt-3" v-if="showSearchResult">
         <li :key="index" v-for="(movie, index) in searchResult">
           <router-link
-            :to="`/movie/${movie.id}`"
+            :to="`/tony-movies/movie/${movie.id}`"
             @click.native="showSearchResult = false"
             class="flex items-center border-b border-gray-500 p-1"
           >
